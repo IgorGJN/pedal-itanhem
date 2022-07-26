@@ -36,7 +36,7 @@ body {
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-items: center;
     background-color: var(--segunda-cor);
     padding: 8px 16px;
     box-shadow: 0px 4px 4px var(--terceira-cor);
@@ -97,10 +97,11 @@ body {
         display: block;
         width: 32px;
         height: 32px;
-        background-image: url(../img/produto_1.png);
+        background-image: url(../img/perfil.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
+        border-radius: 50%;
     }
 
     .cabecalho__perfil::after {
@@ -138,12 +139,6 @@ body {
     padding-left: 64px;
     display: flex;
     align-items: center;
-}
-
-.menu-lateral__link:active {
-    color: white;
-    padding-left: 56px;
-    border-left: 8px solid #FFFFFF;
 }
 
 .menu-lateral__link--ativa {
@@ -189,6 +184,8 @@ body {
         width: 200px;
         grid-column: 1;
         grid-row: 1 / span 2;
+        height: 100%;
+        box-shadow: 4px 82px 4px var(--terceira-cor);
     }
 }
 
@@ -212,7 +209,8 @@ body {
             "secao-videos secao-videos secao-videos"
             "titulo-produto titulo-produto titulo-produto"
             "produtos-recentes destaque-produtos destaque-produtos"
-            "secao-produtos secao-produtos secao-produtos "
+            "secao-produtos secao-produtos secao-produtos"
+            "rodape rodape rodape"
         ;
         column-gap: 32px;
         padding: 16px 60px;
@@ -235,6 +233,11 @@ body {
     border-radius: 15px;
     overflow: hidden;
     background-color: var(--terceira-cor);
+}
+
+.cartao:hover {
+    transition: 0.5s;
+    transform: scale(1.02);
 }
 
 .cartao--destaque {
@@ -284,14 +287,13 @@ body {
 
 .cartao__botao {
     display: flex;
-    text-align: center;
+    align-items: center;
     justify-content: center;
-    background-color: rgb(0, 89, 255);
+    background-color: #0480DC;
     width: 40px;
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
-    padding-top: 5px;
     justify-self: flex-end;
 }
 
@@ -334,7 +336,6 @@ body {
     display: none;
 }
 
-
 @media screen and (min-width: 1000px) {
 
     .cartao--destaque{
@@ -357,7 +358,7 @@ body {
 
     .cartao__link {
         font-size: 0.8rem;
-        color: rgb(0, 102, 255);
+        color: #0480DC;
         font-weight: 600;
         justify-self: flex-end;
     }
@@ -438,6 +439,14 @@ body {
 
     .destaque-produtos {
         grid-area: destaque-produtos;
+    }
+
+    .rodape {
+        grid-area: rodape;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
     }
 
 }
