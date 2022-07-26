@@ -5,6 +5,9 @@
     --barro: #733712;
     --tree: #5F5F1F;
     --green: #CABD4D;
+    --primeira-cor: #1D232A;
+    --segunda-cor: #15191C;
+    --terceira-cor: #2C343A;
 }
 
 @font-face {
@@ -16,9 +19,9 @@
 /* Display Flex */
 
 body {
-    background-color: var(--terra);
+    background-color: var(--primeira-cor);
     font-family: 'Open Sans', 'icones', sans-serif;
-    color: black;
+    color: white;
 }
 
 @media screen and (min-width: 1000px) {
@@ -34,9 +37,10 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: var(--darkblue);
+    background-color: var(--segunda-cor);
     padding: 8px 16px;
-    box-shadow: 0px 4px 4px var(--barro);
+    box-shadow: 0px 4px 4px var(--terceira-cor);
+    color: white;
 }
 
 .cabecalho__menu i::before {
@@ -59,7 +63,7 @@ body {
 
 @media screen and (min-width: 1000px) {
     .cabecalho {
-        background-color: red;
+        background-color: var(--segunda-cor);
         display: grid;
         grid-template-columns: 1fr auto;
         padding: 16px 60px;
@@ -83,9 +87,9 @@ body {
         column-gap: 8px;
         align-items: center;
         justify-self: flex-end;
-        color: blueviolet;
+        color: white;
         padding: 8px 32px;
-        border-right: 1px solid black;
+        border-right: 1px solid white;
     }
 
     .cabecalho__perfil::before {
@@ -109,10 +113,9 @@ body {
 .menu-lateral {
     display: flex;
     flex-direction: column;
-    background-color: var(--darkblue);
+    background-color: var(--segunda-cor);
     width: 75vw;
     height: 100vh;
-
     position: absolute;
     left: -100vw;
     transition: .25s;
@@ -131,7 +134,7 @@ body {
 
 .menu-lateral__link {
     height: 64px;
-    color: rgb(44, 44, 44);
+    color: white;
     padding-left: 64px;
     display: flex;
     align-items: center;
@@ -231,7 +234,7 @@ body {
     width: 100%;
     border-radius: 15px;
     overflow: hidden;
-    background-color: white;
+    background-color: var(--terceira-cor);
 }
 
 .cartao--destaque {
@@ -240,7 +243,7 @@ body {
 
 
 .cartao__conteudo {
-    padding: 16px;
+    padding: 15px;
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 8px;
@@ -283,12 +286,12 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
-    background-color: blue;
+    background-color: rgb(0, 89, 255);
     width: 40px;
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
-    padding-top: 6px;
+    padding-top: 5px;
     justify-self: flex-end;
 }
 
@@ -354,7 +357,7 @@ body {
 
     .cartao__link {
         font-size: 0.8rem;
-        color: blue;
+        color: rgb(0, 102, 255);
         font-weight: 600;
         justify-self: flex-end;
     }
@@ -384,7 +387,7 @@ body {
 
     .cartao__item-perfil {
         font-size: 0.8rem;
-        color: green;
+        color: greenyellow;
     }
 
     .cartao__imagem--desktop {
