@@ -207,6 +207,7 @@ body {
             "titulo-pagina titulo-pagina titulo-pagina"
             "destaque-video destaque-video videos-recentes"
             "secao-videos secao-videos secao-videos"
+            "titulo-produto titulo-produto titulo-produto"
             "produtos-recentes destaque-produtos destaque-produtos"
             "secao-produtos secao-produtos secao-produtos "
         ;
@@ -216,7 +217,7 @@ body {
     }   
 }
 
-.titulo-pagina {
+.titulo {
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -419,8 +420,13 @@ body {
         grid-area: destaque-video;
     }
 
+    .titulo-produto {
+        grid-area: titulo-produto;
+    }
+
     .produtos-recentes {
         grid-area: produtos-recentes;
+        align-self: flex-start;
     }
 
     .secao-produtos {
