@@ -43,6 +43,7 @@ body {
     color: white;
 }
 
+/*
 .cabecalho__menu i::before {
     content: "\e904";
     font-size: 24px;
@@ -51,7 +52,7 @@ body {
 .cabecalho__notificacao i::before {
     content: "\e906";
     font-size: 24px;
-}
+} */
 
 .cabecalho__logo {
     width: 50px;
@@ -298,7 +299,16 @@ body {
 }
 
 .cartao__botao--play::before {
-    content: "\e90b";
+    content: "play_circle";
+    font-size: 24px;
+}
+
+.cartao__botao--play--destaque {
+    padding-right: 8px;
+}
+
+.cartao__botao--buy::before {
+    content: "add_shopping_cart";
     font-size: 24px;
 }
 
@@ -449,4 +459,29 @@ body {
         margin-top: 50px;
     }
 
+}
+
+/* Pagina pinturas */
+
+.pinturas {
+    display: grid;
+    gap: 16px;
+}
+
+.titulo-pinturas {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 1000px)  {
+
+    .pinturas {
+        grid-template-columns: 1fr 1fr;
+        margin-top: -50px ;
+    }
+
+    .titulo-pinturas {
+        grid-column: span 2;
+    }
+    
 }
