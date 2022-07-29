@@ -142,14 +142,19 @@ body {
     align-items: center;
 }
 
-.menu-lateral__link--ativa {
+.menu-lateral__link:hover {
+    color: white;
+    padding-left: 56px;
+    border-left: 8px solid #FFFFFF;
+}
+
+.menu-lateral__link--ativo {
     color: white;
     padding-left: 56px;
     border-left: 8px solid #FFFFFF;
 }
 
 .menu-lateral__link::before {
-    content: "\e900";
     width: 24px;
     height: 24px;
     font-size: 24px;
