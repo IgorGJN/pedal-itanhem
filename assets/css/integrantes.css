@@ -1,0 +1,29 @@
+.integrantes {
+    padding: 24px;
+}
+
+.secao-integrantes {
+    margin: 24px 0;
+}
+
+.integrantes__image {
+    width: 100%;
+    border-radius: 50%;
+    background-color: var(--terceira-cor);
+    box-shadow: 5px 5px white;
+    margin-bottom: 16px;
+}
+
+.integrantes__image:hover {
+    box-shadow: 5px 5px skyblue;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .secao-integrantes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+
+}

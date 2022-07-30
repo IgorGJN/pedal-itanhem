@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/medalhas.css">
+
     <title>Medalhas | Pedal Itanhém</title>
 </head>
 <body>
@@ -30,173 +32,109 @@
         <a href="medalhas.html" class="menu-lateral__link menu-lateral__link--camisas  menu-lateral__link--ativo">Medalhas</a>
         <a href="pinturas.html" class="menu-lateral__link menu-lateral__link--pinturas">Pinturas</a>
     </nav>
-    <main class="principal">
-        <h2 class="titulo titulo-pagina">Inicio</h2>
-        <article class="cartao cartao--destaques destaque-video">
-            <img src="assets/img/banner_1.png" alt="Banner do Cartão" class="cartao__image destaque-video cartao__imagem--desktop">
-            <img src="assets/img/banner-mobile_1.png" alt="Banner do Cartão" class="cartao__image destaque-video cartao__imagem--mobile">
-            <div class="cartao__conteudo">
-                <p class="cartao__destaque">Video em Destaque</p>
-                <h3 class="cartao__titulo">Belas Paisagens de Itanhém</h3>
-                <p class="cartao__perfil">IgorGJN</p>
-                <p class="cartao__info cartao__info--tempo"> 3 minutos</p>
-                <p class="cartao__info cartao__info--visualizacao"> 38.038 visualizações</p>
-                <button class="cartao__botao cartao__botao--destaque"><span class="cartao__botao--play--destaque cartao__botao--play material-symbols-rounded"></span>Assistir agora</button>
-            </div>
-        </article>
-        <article class="cartao cartao--recentes videos-recentes">
-            <h3 class="cartao__titulo">Video Recentes</h3>
-            <a href="" class="cartao__link">Ver todos</a>
-            <ul class="cartao__lista">
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_6.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Pedal em grupo!</h4>
-                    <p class="cartao__item-perfil">Aberlado</p>
-                </li>                
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_7.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Pedal ao pôr do sol!</h4>
-                    <p class="cartao__item-perfil">Boris</p>
-                </li>
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_8.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Pedal nas monstanhas!</h4>
-                    <p class="cartao__item-perfil">Cicinho</p>
-                </li>
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_9.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Pedal na estrada!</h4>
-                    <p class="cartao__item-perfil">Dorival</p>
-                </li>
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_10.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Pedal na praia!</h4>
-                    <p class="cartao__item-perfil">Epinafio</p>
-                </li>
-            </ul>
-        </article>
-        <section class="secao secao-videos" id="videos">
-            <h3 class="titulo-secao">Melhores fotos</h3>
-            <article class="cartao">
-                <img src="assets/img/video_1.png" alt="video" class="cartao__image">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Xiau</p>
-                    <h3 class="cartao__titulo">Sombra das nuvens</h3>
-                    <p class="cartao__info cartao__info--tempo">Itanhém, BA</p>
-                    <button class="cartao__botao cartao__botao--play material-symbols-rounded" aria-label="assistir agora" ></button>
-                </div>
-            </article>            
-            <article class="cartao">
-                <img src="assets/img/video_2.png" alt="video" class="cartao__image">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Xavier</p>
-                    <h3 class="cartao__titulo">Grandes pedras</h3>
-                    <p class="cartao__info cartao__info--tempo">Itanhém, BA</p>
-                    <button class="cartao__botao cartao__botao--play material-symbols-rounded" aria-label="assistir agora" ></button>
-                </div>
-            </article>            
-            <article class="cartao">
-                <img src="assets/img/video_3.png" alt="video" class="cartao__image">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Tatu</p>
-                    <h3 class="cartao__titulo">Corredor pinheiros</h3>
-                    <p class="cartao__info cartao__info--tempo">Itanhém, BA</p>
-                    <button class="cartao__botao cartao__botao--play material-symbols-rounded" aria-label="assistir agora" ></button>
-                </div>
-            </article>            
-            <article class="cartao">
-                <img src="assets/img/video_4.png" alt="video" class="cartao__image">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Raique</p>
-                    <h3 class="cartao__titulo">Colina verde</h3>
-                    <p class="cartao__info cartao__info--tempo">Itanhém, BA</p>
-                    <button class="cartao__botao cartao__botao--play material-symbols-rounded" aria-label="assistir agora" ></button>
-                </div>
+    <main class="medalhas">
+        <h2 class="titulo titulo-pagina">Medalhas</h2>
+         <section class="secao-medalhas">
+            <article class="medalha">
+                <img src="assets/img/medalhas/1.png" alt="video" class="medalha__image">
+                    <h3 class="medalhas__titulo">Phil's Cookie 100</h3>
+                    <p class="medalha__data">mai de 2022</p>
             </article>
-        </section>
-
-        <h2 class="titulo titulo-produto" id="produtos">Produtos</h2>
-        <article class="cartao cartao--destaque destaque-produtos">
-            <img src="assets/img/banner_2.png" alt="Banner do Cartão" class="cartao__image cartao__imagem--desktop">
-            <img src="assets/img/banner-mobile_2.png" alt="Banner do Cartão" class="cartao__image cartao__imagem--mobile">
-            <div class="cartao__conteudo">
-                <p class="cartao__destaque">Melhor trilha</p>
-                <h3 class="cartao__titulo">Grande subida</h3>
-                <p class="cartao__perfil">Itanhém, BA</p>
-                <p class="cartao__info cartao__info--tempo"> 39 km</p>
-                <p class="cartao__info cartao__info--visualizacao"> 986 Elevação</p>
-                <button class="cartao__botao cartao__botao--destaque"><span class="cartao__botao--play--destaque cartao__botao--play material-symbols-rounded"></span>Ir agora</button>
-            </div>
-        </article>
-        <article class="cartao cartao--recentes produtos-recentes">
-            <h3 class="cartao__titulo">Dicas do pedal</h3>
-            <a href="" class="cartao__link">Ver todos</a>
-            <ul class="cartao__lista">
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_1.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Relaxando pós-treino</h4>
-                    <p class="cartao__item-perfil">Gaiovota</p>
-                </li>                
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_2.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Pedalandon na areia</h4>
-                    <p class="cartao__item-perfil">Marcela</p>
-                </li>
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_3.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Terreno molhado</h4>
-                    <p class="cartao__item-perfil">Carmélia</p>
-                </li>
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_4.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Técnicas nas curvas</h4>
-                    <p class="cartao__item-perfil">Carmela</p>
-                </li>
-                <li class="cartao__item">
-                    <img src="assets/img/miniatura_5.jpg" alt="thumb" class="cartao__item-thumbnail">
-                    <h4 class="cartao__item-titulo">Equipamentos necessários</h4>
-                    <p class="cartao__item-perfil">Ivan</p>
-                </li>
-            </ul>
-        </article>
-        <section class="secao secao-produtos">
-            <h3 class="titulo-secao">Obras de arte</h3>
-            <article class="cartao">
-                <img src="assets/img/produto_1.png" alt="video" class="cartao__image">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Ana</p>
-                    <h3 class="cartao__titulo">Ana e as flores</h3>
-                    <p class="cartao__info cartao__info--tempo">R$ 500,00</p>
-                    <button class="cartao__botao cartao__botao--buy material-symbols-rounded" aria-label="assistir agora" ></button>
-                </div>
-            </article>            
-            <article class="cartao">
-                <img src="assets/img/produto_2.png" alt="video" class="cartao__image">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Fer</p>
-                    <h3 class="cartao__titulo">Buquê na janela</h3>
-                    <p class="cartao__info cartao__info--tempo">R$ 958,00</p>
-                    <button class="cartao__botao cartao__botao--buy material-symbols-rounded" aria-label="assistir agora" ></button>
-                </div>
-            </article>            
-            <article class="cartao">
-                <img src="assets/img/produto_3.png" alt="video" class="cartao__image">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Andes</p>
-                    <h3 class="cartao__titulo">Casa dos pássaros</h3>
-                    <p class="cartao__info cartao__info--tempo">R$ 756,00</p>
-                    <button class="cartao__botao cartao__botao--buy material-symbols-rounded" aria-label="assistir agora" ></button>
-                </div>
-            </article>            
-            <article class="cartao">
-                <img src="assets/img/produto_4.gif" alt="video" class="cartao__image">
-                <div class="cartao__conteudo">
-                    <p class="cartao__perfil">Cime</p>
-                    <h3 class="cartao__titulo">Tuque Tuque</h3>
-                    <p class="cartao__info cartao__info--tempo">R$ 1.999,99</p>
-                    <button class="cartao__botao cartao__botao--buy material-symbols-rounded" aria-label="assistir agora" ></button>
-                </div>
-            </article>
+            <article class="medalha">		
+                <img src="assets/img/medalhas/2.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Three Peaks Chargel Challenge	</h3>
+                    <p class="medalha__data">	mai de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/3.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Stolen Goat - 10th Anniversary Challenge	</h3>
+                    <p class="medalha__data">	mai de 2022	</p>
+            </article>		
+               <article class="medalha">		
+                <img src="assets/img/medalhas/4.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Surfers Against Sewage: Million Mile May	</h3>
+                    <p class="medalha__data">	mai de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/5.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	ROKA TUNE UP 200 Challenge	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/6.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Le Col Classics Challenge	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/7.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	POW #CrushIt4Climate 2022	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/8.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Fuel up with Pact Coffee | 100 minutes	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/9.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Honest Work Challenge by The Pro’s Closet	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/10.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	The L.L.Bean 15 Challenge	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/11.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Chain Reaction Days of Dirt	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/12.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Momentous Operation Optimization	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/13.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Lucky Saint: Daylight Saviours	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/14.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Holy Victoria Challenge	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/15.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Sur x Davis Phinney Foundation Live Well Now	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/16.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Pretty Muddy Things Challenge by Isadore x Factor	</h3>
+                    <p class="medalha__data">	abr de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/17.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Xylem - Plogging with Pep	</h3>
+                    <p class="medalha__data">	mar de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/18.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	National Trust - Spring into action 2022	</h3>
+                    <p class="medalha__data">	mar de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/19.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	Le Col Shape Up Challenge	</h3>
+                    <p class="medalha__data">	mar de 2022	</p>
+            </article>		
+            <article class="medalha">		
+                <img src="assets/img/medalhas/20.png" alt="video" class="medalha__image">		
+                    <h3 class="medalhas__titulo">	ROKA NEW DAWN 200	</h3>
+                    <p class="medalha__data">	mar de 2022	</p>
+            </article>                
         </section>
         <p class="rodape">&copy; Copyright Igor Gabriel Dev - 2022</p>
     </main>
