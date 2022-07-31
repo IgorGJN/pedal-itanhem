@@ -11,8 +11,8 @@
 }
 
 @font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
+    font-family: 'icomoon';
+    src: url(../font/icomoon.ttf);
 }
 
 /* Cabeçalho e Menu */
@@ -20,7 +20,7 @@
 
 body {
     background-color: var(--primeira-cor);
-    font-family: 'Open Sans', 'icones', sans-serif;
+    font-family: 'Open Sans', 'icomoon', sans-serif;
     color: white;
 }
 
@@ -167,20 +167,20 @@ body {
 }
 
 .menu-lateral__link--video::before {
-    content: "\e90e";
+    content: "\e912";
 }
 
 .menu-lateral__link--locais::before {
-    content: "\e909";
+    content: "\e94b";
 }
 .menu-lateral__link--integrantes::before {
-    content: "\e903";
+    content: "\e972";
 }
 .menu-lateral__link--camisas::before {
     content: "\e900";
 }
 .menu-lateral__link--pinturas::before {
-    content: "\e90a";
+    content: "\e927";
 }
 
 @media screen and (min-width: 1000px) {
