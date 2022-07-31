@@ -1,0 +1,43 @@
+.trilhas {
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+    padding: 8px;
+    grid-template-areas: 
+    "titulo-trilhas titulo-secao titulo-secao"
+    "mapa secao-trilhas secao-trilhas2"
+    "rodape rodape rodape";
+    gap: 16px;
+    margin: 32px;
+}
+
+iframe {
+    border-radius: 32px;
+    height: 65vh;
+    width: 100%;
+}
+
+.titulo-trilhas{
+    grid-area: titulo-trilhas;
+}
+
+.titulo-secao {
+    grid-area: titulo-secao;
+}
+
+.secao-trilhas .secao-trilhas2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartao {
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 999px) {
+
+    .trilhas {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

@@ -1,0 +1,16 @@
+:root {
+    --darkblue: #4570B5;
+    --skyblue: #9CC8F7;
+    --terra: #FFCA70;
+    --barro: #733712;
+    --tree: #5F5F1F;
+    --green: #CABD4D;
+    --primeira-cor: #DDDDDD;
+    --segunda-cor: #BBBBBB;
+    --terceira-cor: #FFFFFF;
+}
+
+
+* {
+    color: black;
+}
