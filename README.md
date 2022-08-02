@@ -7,7 +7,7 @@ Site para treinar o display Flex e Grid. Curso Alura: CSS - dispondo elementos c
 Link -> [https://igorgjn.github.io/pedal-itanhem/](https://igorgjn.github.io/pedal-itanhem/)
 
 ### 📅 Ultima atualização 
-16 de Julho de 2022
+01 de Agosto de 2022
 
 ## 🎨 Layout
 <code><img height="300px" src="assets/img/layout.png" alt="Layout do site"/></code>
